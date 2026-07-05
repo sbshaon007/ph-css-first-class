@@ -78,18 +78,20 @@ nav ul li a:hover {
        
 }
 
-#form-control {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   
+ #form-control {
+    
 
 }
 
-#form-control h2{
+.contact-heading h2{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom:10px;
+
+}
+
+.contact-heading p{
+
+    margin-bottom:10px;
 
 }
 
@@ -128,7 +130,8 @@ nav ul li a:hover {
     padding: 10px;
     border-radius:5px;
     border:2px solid black;
-
+    margin-bottom: 20px;
+    
 
 }
 
@@ -138,19 +141,38 @@ nav ul li a:hover {
      
 }
 
-#form-control-btn{
 
+
+ #form-label-chbx{
+
+
+  
+
+}
+
+
+#form-control-chbx{
+
+
+
+
+}
+
+#form-control-btn{
+    display: inline-block;
+    width: 100%;
     background-color: limegreen;
     margin-top:20px;
     padding:10px 25px;
     cursor: pointer;
     border:2px solid #000;
     border-radius: 5px;
-    text-align: center;
     font-size: 18px;
+    transition: all 0.25s ease-in-out;
     
         
 }
+
 
 #form-control-btn:hover{
 

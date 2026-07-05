@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Navigation Using Flexbox</title>
+    <title>CSS Practice</title>
     <link rel="stylesheet" href="styles/nav.css">
 </head>
 
@@ -55,14 +55,17 @@
 
        <section id="contact">
 
-
+        
 
         <div id="form-container">
 
+            <div class="contact-heading">
+            <h2>Send Us a Message</h2>
+                <p style="text-align: center;">Fill out the form below to send us a message</p>
+        </div>
+
             <form id="form-control">
 
-                <h2>Send Us a Message</h2>
-                <p style="text-align: center;">Fill out the form below to send us a message</p>
 
                 <label class="form-label" for="name">Name</label>
                 <input type="text" name="name" class="form-control-field" placeholder="Your Name">
@@ -76,7 +79,13 @@
                 <label class="form-label" for="name">Message</label>
                 <textarea name="message" id="form-control-msg" placeholder="Your Message"></textarea>
                 
+                
+                <input type="checkbox" name="checkbox" id="form-control-chbx">
+                <label id="form-label-chbx" for="checkbox">Agree to Our <a href="#" target="_blank">Privacy Policy</a></label>
+                
                 <input id="form-control-btn" type="submit" value="Send Message">
+
+                
 
 
             </form>
