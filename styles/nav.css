@@ -78,10 +78,10 @@ nav ul li a:hover {
        
 }
 
- #form-control {
+ /* #form-control {
     
 
-}
+} */
 
 .contact-heading h2{
     text-align: center;
@@ -122,6 +122,15 @@ nav ul li a:hover {
 
 }
 
+
+
+#form-control-dropdown{
+width:100%;
+padding: 8px;
+border-radius: 5px;
+border: 2px solid black;
+}
+
 #form-control-msg{
     
     display: block;
@@ -143,7 +152,7 @@ nav ul li a:hover {
 
 
 
- #form-label-chbx{
+ /* #form-label-chbx{
 
 
   
@@ -156,7 +165,7 @@ nav ul li a:hover {
 
 
 
-}
+} */
 
 #form-control-btn{
     display: inline-block;
