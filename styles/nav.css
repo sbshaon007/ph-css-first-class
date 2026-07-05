@@ -1,9 +1,22 @@
+/****Global Css*****/
+
+* , *::after, *::before{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
 body {
 
     font-family: system-ui;
+
     
 }
 
+
+/***Navigation**/
 
 nav ul {
 
@@ -36,5 +49,112 @@ nav ul li a {
 nav ul li a:hover {
 
  color:black;
+
+}
+
+
+/***Hero Section***/
+
+
+
+
+
+/**Contact form**/
+
+
+
+#form-container{
+
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid black;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+       
+}
+
+#form-control {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+
+#form-control h2{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+
+
+.form-label{
+    display: block;
+    margin:10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+/* .form-control-field::placeholder{
+
+    color: black!important;    
+
+
+} */
+
+.form-control-field{
+    
+    display:block;
+    padding: 10px;
+    width: 100%;;
+    border-radius: 5px;
+  
+
+}
+
+#form-control-msg{
+    
+    display: block;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border-radius:5px;
+    border:2px solid black;
+
+
+}
+
+#form-control-msg::placeholder{
+    
+    font-size: 16px;
+     
+}
+
+#form-control-btn{
+
+    background-color: limegreen;
+    margin-top:20px;
+    padding:10px 25px;
+    cursor: pointer;
+    border:2px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    
+        
+}
+
+#form-control-btn:hover{
+
+    background-color: chocolate;
+    color: white;
+    
 
 }
